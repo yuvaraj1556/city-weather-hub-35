@@ -57,6 +57,22 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        weather: {
+          sky: {
+            start: "hsl(var(--sky-start))",
+            end: "hsl(var(--sky-end))",
+          },
+          temp: {
+            warm: "hsl(var(--temp-warm))",
+            cool: "hsl(var(--temp-cool))",
+          },
+          humidity: "hsl(var(--humidity))",
+          aqi: {
+            good: "hsl(var(--aqi-good))",
+            moderate: "hsl(var(--aqi-moderate))",
+            unhealthy: "hsl(var(--aqi-unhealthy))",
+          },
+        },
       },
       borderRadius: {
         lg: "var(--radius)",
